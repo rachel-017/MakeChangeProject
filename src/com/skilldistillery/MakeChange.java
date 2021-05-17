@@ -30,7 +30,7 @@ public class MakeChange {
 			System.out.println(num20s+" 20 dollar bills");}
 			if(num20s==1) {
 				System.out.println(num20s+" 20 dollar bill");}
-			amountProvided = amountOwed-(num20s*20);}
+			amountOwed = amountOwed-(num20s*20);}
 		
 		if(amountOwed%10 >0) {
 			int num10s = (int)((amountOwed)/10);
